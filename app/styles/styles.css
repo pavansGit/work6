@@ -1,0 +1,214 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.5;
+  background-color: #fbfbf5;}
+
+
+  .one h1{
+    color: #7F7483;
+    font-family: open Sans, sans-serif;
+    font-weight: normal;
+    padding-left: 7.5em;
+    margin-top: 5px;
+    font-size: 4em;
+  }
+
+
+  nav ul{
+
+    float: right;
+    padding-right: 30em;
+    position: relative;
+    top: -5em;
+  }
+
+
+
+  .inner {
+    margin-top: calc(15% - 50px) !important;
+    margin-bottom: 30em  !important;
+
+  }
+
+  .lo-text {
+    margin-top: 5em;
+  }
+
+  .mid{
+    font-size: 4.5em;
+    color: #7F7483;
+    font-family: sans-serif;
+    padding-left: 7em;
+    position: relative;
+    top: -1.5em;
+    }
+
+
+  .down{
+    font-size: 5em;
+    color: #FFCD00;
+    padding-left: 9.7em;
+    position: relative;
+    top: -3em;
+
+  width: 60%;
+
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+
+
+   }
+
+   .down{
+   	animation-name: anim-3;
+   }
+
+
+   @keyframes anim-3 {
+ 	0%, 66.66% { left: -100%; opacity: 0; }
+   74.96%, 91.62% { left: 25%; opacity: 1; }
+   100% { left: 110%; opacity: 0; }
+ }
+
+
+
+
+   .foot1 {
+   color: #7F7483;
+   font-family: open sans, sans-serif;
+   font-size: 0.75em;
+   position: relative;
+   top: -43em;
+   padding-left: 43em;
+
+}
+
+   .foot2 {
+   text-align: center;
+   color: #7F7483;
+   font-family: open sans, sans-serif;
+   font-size: 0.75em;
+   position: relative;
+   top: -40em;
+}
+
+
+   .foot3 {
+   text-align: right;
+   color: #7F7483;
+   font-family: open sans, sans-serif;
+   font-size: 0.75em;
+   position: relative;
+   top: -47.6em;
+   padding-right: 41em;
+}
+
+  .g{
+  color: #FFCD00;
+  font-family: cursive;
+  font-size: 1.1em;
+}
+
+  .G{
+  color: #FFCD00;
+  font-family: cursive;
+  font-family: 2em;
+}
+
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px){
+
+  .one h1{
+    color: #7F7483;
+    font-family: open Sans, sans-serif;
+    font-weight: normal;
+    padding-left: 0.5em;
+    margin-top: 5px;
+    font-size: 2.5em;
+
+ }
+
+
+ .inner {
+   margin-top: calc(15% - 50px) !important;
+   margin-bottom: 30em  !important;
+
+ }
+
+ .lo-text {
+   margin-top: 5em;
+ }
+
+
+ .mid{
+   font-size: 3em;
+   color: #7F7483;
+   font-family: sans-serif;
+   padding-left: 0.5em;
+   position: relative;
+   top: 1em;
+   }
+
+  .down{
+   font-size: 2.5em;
+   color: #FFCD00;
+   font-family: sans-serif;
+   padding-left: 2.5em;
+   position: relative;
+   top: -1.5em;
+
+    }
+
+
+  .foot1 {
+   color: #7F7483;
+   font-family: open sans, sans-serif;
+   font-size: 0.75em;
+   position: relative;
+   padding-left: 1.5em;
+   top: -27em;
+
+    }
+
+    .foot2 {
+    text-align: center;
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    position: relative;
+    top: -26em;
+}
+
+  .foot3 {
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    font-size: 0.75em;
+    position: relative;
+    top: -31.5em;
+    padding-left: 22em;
+}
+
+
+
+
+
+}
