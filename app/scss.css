@@ -1,0 +1,101 @@
+h1{
+  font-size: 4em;
+  line-height: $d-line-height-header;
+}
+
+
+
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: $font-base;
+    font-size: $f-base-sm;
+    color: $c-white;
+    @media #{$bp-mobile} {
+        font-size: $f-base-md;
+        padding: 0;
+    }
+  }
+
+@media #{$bp-desktop} {
+       font-size: $f-base-lg;
+   }
+
+.page{
+     height: auto;
+   }
+
+.one h1{
+     color: $c-Lightyellow;
+     a{
+       color: $Lightyellow;
+       }
+
+.mid {
+  color: $c-Lightgrey;
+    a{
+      color: $Lightgrey;
+    }
+}
+
+.down {
+  color: $c-yellow;
+  a{
+    color: $yellow;
+  }
+}
+
+.column-8{
+  width: 100%;
+
+  @media #{$bp-tablet} {
+    max-width: $d-max-width;
+    margin: auto;
+  }
+}
+@media #{$bp-mobile} {
+   text-align: center;
+ }
+
+
+.column-4{
+  width: 100%;
+
+  @media #{$bp-tablet} {
+    max-width: $d-max-width;
+    margin: relative;
+  }
+}
+
+.row{
+  width: 50%;
+
+  &:after{
+    display: table;
+    margin: auto;
+  }
+}
+
+.foot1{
+     color: $c-Lightgrey;
+     a{
+       color: $Lightgrey;
+       }
+
+.foot2{
+      color: $c-Lightgrey;
+      a{
+        color: $Lightgrey;
+          }
+
+.foot3{
+       color: $c-Lightgrey;
+          a{
+          color: $Lightgrey;
+           }
+
+           
