@@ -143,23 +143,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .inner {
     margin-top: calc(15% - 50px) !important;
     margin-bottom: 30em  !important;
@@ -176,7 +159,7 @@ body {
     font-family: sans-serif;
     padding-left: 7em;
     position: relative;
-    top: -1.5em;
+    top: 0em;
     }
 
 
@@ -283,9 +266,9 @@ and (max-width : 667px){
    font-size: 3em;
    color: #7F7483;
    font-family: sans-serif;
-   padding-left: 0.5em;
+   padding-left: 0em;
    position: relative;
-   top: 1em;
+   top: 3.5em;
    }
 
   .down{
@@ -294,7 +277,7 @@ and (max-width : 667px){
    font-family: sans-serif;
    padding-left: 2.5em;
    position: relative;
-   top: -1.5em;
+   top: 1em;
 
     }
 
